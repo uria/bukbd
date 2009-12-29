@@ -1,0 +1,54 @@
+bukbd - keyboard combinations to simulate other keys
+====================================================
+
+bukbd version 0.5 by
+  Benigno Uria, beni.asturias@gmail.com
+
+Contents
+========
+* Introduction
+* Requirements
+* Installation
+* Further information
+
+
+Introduction
+============
+
+bukbd is a kernel patch to the input subsystem to simulate keys using other
+keys combinations. For example:
+
+f + j = left
+f + k = down
+f + l = right
+f + i = up
+and many more.
+
+
+Requirements
+============
+
+A compatible kernel version: 
+  2.6.31.4 (the only one it has been tested).
+
+
+Installation
+============
+
+* Download bukbd:
+  The latest bukbd kernel patch can be found at: 
+  http://github.com/uria/bukbd
+  git://github.com/uria/bukbd.git
+
+* Patch your kernel:
+  Enter your kernel source's directory, and run:
+
+  patch -p1 < path_to_the_patch
+
+* Rebuild your kernel image
+
+
+Further information
+===================
+
+*  bukbd at github: http://github.com/uria/bukbd
