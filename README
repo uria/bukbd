@@ -52,3 +52,9 @@ Further information
 ===================
 
 *  bukbd at github: http://github.com/uria/bukbd
+
+TODO
+====
+
+1) Port from kernel input subsystem to X.
+2) Config file.
