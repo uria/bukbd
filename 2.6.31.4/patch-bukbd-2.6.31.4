@@ -1,5 +1,5 @@
 --- linux-source-2.6.31-orig/drivers/input/input.c	2009-12-08 04:01:06.000000000 +0000
-+++ linux-source-2.6.31-bukbd/drivers/input/input.c	2009-12-29 14:17:41.000000000 +0000
++++ linux-source-2.6.31-bukbd/drivers/input/input.c	2009-12-31 10:39:41.000000000 +0000
 @@ -29,6 +29,83 @@
  
  #define INPUT_DEVICES	256
@@ -59,8 +59,8 @@
 +		4, 	{
 +			{KEY_K, 4, {{1, KEY_END}, {0, KEY_END}, {1, KEY_ENTER}, {0, KEY_ENTER}}},
 +			{KEY_I, 6, {{1, KEY_HOME}, {0, KEY_HOME}, {1, KEY_ENTER}, {0, KEY_ENTER}, {1, KEY_UP}, {0, KEY_UP}}},
-+			{KEY_U, 10, {{1, KEY_HOME}, {0, KEY_HOME}, {1, KEY_LEFTSHIFT}, {1, KEY_END}, {0, KEY_END}, {0, KEY_LEFTSHIFT}, {1, KEY_DELETE}, {0, KEY_DELETE}}},
-+			{KEY_O, 8, {{1, KEY_LEFTSHIFT}, {1, KEY_END}, {0, KEY_END}, {0, KEY_LEFTSHIFT}, {1, KEY_DELETE}, {0, KEY_DELETE}}}
++			{KEY_U, 8, {{1, KEY_HOME}, {0, KEY_HOME}, {1, KEY_LEFTSHIFT}, {1, KEY_END}, {0, KEY_END}, {0, KEY_LEFTSHIFT}, {1, KEY_DELETE}, {0, KEY_DELETE}}},
++			{KEY_O, 6, {{1, KEY_LEFTSHIFT}, {1, KEY_END}, {0, KEY_END}, {0, KEY_LEFTSHIFT}, {1, KEY_DELETE}, {0, KEY_DELETE}}}
 +			}
 +	},
 +	{KEY_J, 0,  
